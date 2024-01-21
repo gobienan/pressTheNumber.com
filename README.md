@@ -1,5 +1,3 @@
-# pressTheNumber
-
 # Press the Number - Frontend Project
 
 Welcome to "Press the Number," a fun and interactive frontend development project that demonstrates how to create a user interface for a number-based game. In this project, we'll explore various concepts, including HTML structure, JavaScript programming, and CSS styling.
