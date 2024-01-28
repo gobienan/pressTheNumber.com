@@ -21,8 +21,26 @@
   grid-gap: 4px;
 }
 
-.tile{
-  &.active{
+/* Timer styling */
+.timer {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  border-radius: 8px;
+  background-color: gray;
+  margin-bottom: 10px;
+}
+
+.timer__progress {
+  height: 100%;
+  border-radius: 8px;
+  width: 100%;
+  background-color: green;
+  transition: width 1s;
+}
+
+.tile {
+  &.active {
     background: green;
   }
 }

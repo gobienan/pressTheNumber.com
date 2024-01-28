@@ -29,8 +29,7 @@ export function updateGrid(gridContainer, numbers) {
     tiles[i].classList.remove("active");
   }
   for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[0]);
-    const position = NUMPAD_ORDER.indexOf(numbers[0]);
+    const position = NUMPAD_ORDER.indexOf(numbers[i]);
     const tile = tiles[position];
     tile.classList.add("active");
   }
