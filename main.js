@@ -7,7 +7,6 @@ import "./style.css";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    <h3>Press the Number</h3>
     <div class="timer">
       <div class="timer__progress"></div>
     </div>
